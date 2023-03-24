@@ -1,0 +1,189 @@
+.subheader {
+    background: url('images/Untitled design.svg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: -80px;
+}
+
+.subheader .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #00000069 10%, #093a106b 100%);
+}
+
+.pagetitle {
+    margin-top: 112px;
+    font-family: 'Montserrat-SemiBold', cursive;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: Montserrat-Regular;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid #23D07E;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background: transparent;
+    margin-bottom: -12px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+button:hover {
+    background: #23D07E;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+.petition {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(231, 232, 234);
+    box-shadow: 1px #000;
+}
+
+.statut {
+    margin-left: 10px;
+}
+
+.en-attente::before {
+    content: "en attente";
+    padding: 0px 6px;
+    margin-left: -22px;
+    color: rgb(96, 77, 4);
+    background-color: rgb(250, 235, 138);
+    border: 1px solid rgb(138, 101, 10);
+    border-radius: 5px;
+    margin-top: -10px;
+    font-size: small;
+}
+
+.en-attente,
+.approuved {
+    margin-bottom: 10px;
+}
+
+.approuved::before {
+    content: "approuvée";
+    padding: 0px 6px;
+    margin-bottom: 40px;
+    margin-left: -22px;
+    color: rgb(5, 71, 14);
+    background-color: rgb(138, 250, 145);
+    border: 1px solid rgb(14, 96, 3);
+    border-radius: 5px;
+    margin-top: -10px;
+    font-size: small;
+}
+
+.grandtitre {
+    /* border: solid 6px #23D07E;*/
+    margin: 225px 524px 20px 490px;
+    padding: 17px 80px;
+    font-size: 50px;
+    font-family: Poppins-Regular;
+    border-radius: 10px;
+}
+
+.titre {
+    color: black;
+    padding: 5px 14px;
+    margin-bottom: 10px;
+    line-height: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.description {
+    max-height: 100px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.categorie {
+    margin-left: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgrey;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+hr {
+    width: 100%;
+    margin-bottom: 11px;
+    margin-top: 4px;
+}
+.modifierbutton {
+    border: 2px solid #000;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 50px;
+    color: #000;
+    background: transparent;
+    margin-bottom: -12px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+    margin-left: 1000px;
+}
+
+.modifierbutton:hover {
+    background: #000;
+    color: #fff;
+}
+.modifierbutton a{
+    text-decoration: none;
+    color: black;
+}
+.modifierbutton a:hover{
+    text-decoration: none;
+    color: white;
+}
+.modifierbutton a:visited{
+    text-decoration: none;
+}

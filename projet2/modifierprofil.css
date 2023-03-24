@@ -1,0 +1,170 @@
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+.containerrrr {
+    margin: 30px 188px;
+    max-width: 1106px;
+}
+
+.divbtn {
+    margin: 10px 188px;
+}
+
+.btn {
+    font-family: Montserrat-Regular;
+    width: 166px;
+    margin: 0 122px;
+    height: 50px;
+    font-size: 17px;
+    background-color: black !important;
+}
+
+.btn:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+.marginh1 {
+    margin: 10px 30px 40px;
+    font-family: Montserrat-SemiBold;
+    color: #23d07e;
+}
+
+.paddingform {
+    padding: 50px;
+}
+
+.avatar-upload {
+    position: relative;
+    max-width: 205px;
+    margin: 42px 0px;
+}
+
+.avatar-upload .avatar-edit {
+    left: 25px;
+    position: absolute;
+    right: 12px;
+    z-index: 1;
+    top: 10px;
+    align-content: center;
+}
+
+.avatar-upload .avatar-edit input {
+    display: none;
+}
+
+.avatar-upload .avatar-edit input+label {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 0;
+    border: 1px solid transparent;
+    font-weight: normal;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 100%;
+    border: #000 2px solid;
+    margin-left: -8px;
+}
+
+.avatar-upload .avatar-edit input+label:after {
+    font-size: 16px;
+    content: "Charger une photo";
+    font-family: Montserrat-Regular;
+    font-weight: 500;
+    color: #000;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+}
+
+.coordonnes {
+    font-family: Montserrat-Regular;
+    color: black;
+    font-size: 17px;
+    font-weight: 400;
+}
+.subheader {
+    background: url('images/Untitled design.svg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: -80px;
+}
+
+.subheader .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #00000069 10%, #093a106b 100%);
+}
+
+.pagetitle {
+    margin-top: 112px;
+    font-family: 'Montserrat-SemiBold', cursive;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: Montserrat-Regular;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid #23D07E;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background: transparent;
+    margin-bottom: -12px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+button:hover {
+    background: #23D07E;
+}
+

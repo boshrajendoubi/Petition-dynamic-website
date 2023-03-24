@@ -1,0 +1,11 @@
+.politiquecontainer {
+    margin: 0px 180px;
+    width: 1140px;
+    border: #333 solid 2px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #23D07E;
+}

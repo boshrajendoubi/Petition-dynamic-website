@@ -1,0 +1,118 @@
+.subheader {
+    background: url('images/Untitled design.svg');
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    margin-top: -80px;
+}
+
+.subheader .overlay {
+    width: 100%;
+    height: 100%;
+    padding: 50px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px #333;
+    background-image: linear-gradient( 135deg, #00000069 10%, #093a106b 100%);
+}
+
+.pagetitle {
+    margin-top: 112px;
+    font-family: 'Montserrat-SemiBold', cursive;
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+h3,
+p {
+    font-family: Montserrat-Regular;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 2px solid #23D07E;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background: transparent;
+    margin-bottom: -12px;
+    box-shadow: 0 3px 20px 0 #0000003b;
+}
+
+button:hover {
+    background: #23D07E;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('fonts/poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url('fonts/poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url('fonts/poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url('fonts/poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url('fonts/montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url('fonts/montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/montserrat/Montserrat-Regular.ttf');
+}
+
+.aboutdescription {
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 2.25rem;
+    margin: 10px 5px;
+    padding: 20px;
+    font-family: Poppins-Regular;
+}
+
+.titleabout {
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.h3about {
+    color: #23D07E;
+    font-family: Poppins-Regular;
+    margin: 10px 0;
+    margin-left: 10px;
+}
+
+.aboutcontainer {
+    margin: 100px;
+}
+
+
+/*
+.imgabout {
+    width: 500px;
+    height: 600px;
+}
+*/
